@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:islami/ui/home/BottomNavItem.dart';
-import 'package:islami/ui/home/default_screen.dart';
 import 'package:islami/ui/home/hadeth_tab.dart';
-import 'package:islami/ui/home/quraan_tab.dart';
 import 'package:islami/ui/home/radio_tab.dart';
 import 'package:islami/ui/home/tasbeh_tab.dart';
+
+import 'BottomNavItem.dart';
+import 'default_screen.dart';
+import 'quraan_tab.dart';
 
 class HomeScreen extends StatefulWidget {
   static const String routeName = "HomeScreen";
