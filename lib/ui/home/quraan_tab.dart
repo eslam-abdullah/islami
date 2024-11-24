@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:islami/ui/home/chapter_title.dart';
 import 'package:islami/ui/theme/MyTheme.dart';
 import 'package:islami/ui_utils.dart';
+
+import 'chapter_title.dart';
 
 class QuraanTab extends StatelessWidget {
   @override

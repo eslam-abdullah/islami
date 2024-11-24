@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:islami/ui/home/chapter_details.dart';
-import 'package:islami/ui/home/quraan_tab.dart';
 import 'package:islami/ui/theme/MyTheme.dart';
+
+import 'chapter_details.dart';
+import 'quraan_tab.dart';
 
 class ChapterTitle extends StatelessWidget {
   int index;
