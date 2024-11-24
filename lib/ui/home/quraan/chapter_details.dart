@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:islami/ui/home/default_screen.dart';
-import 'package:islami/ui/home/verse_content.dart';
 import 'package:islami/ui/theme/MyTheme.dart';
+
+import 'verse_content.dart';
 
 class ChapterDetails extends StatefulWidget {
   static const String routeName = 'ChapterDetails';

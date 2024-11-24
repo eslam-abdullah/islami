@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:islami/ui/home/chapter_details.dart';
-import 'package:islami/ui/home/home_screen.dart';
-import 'package:islami/ui/splash/splash_screen.dart';
-import 'package:islami/ui/theme/MyTheme.dart';
+
+import 'ui/home/hadeth/hadeth_details.dart';
+import 'ui/home/home_screen.dart';
+import 'ui/home/quraan/chapter_details.dart';
+import 'ui/splash/splash_screen.dart';
+import 'ui/theme/MyTheme.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,6 +22,7 @@ class MyApp extends StatelessWidget {
         SplashScreen.routeName: (_) => const SplashScreen(),
         HomeScreen.routeName: (_) => HomeScreen(),
         ChapterDetails.routeName: (_) => ChapterDetails(),
+        HadethDetails.routeName: (_) => const HadethDetails(),
       },
       theme: MyThemeData.lightTheme,
     );
